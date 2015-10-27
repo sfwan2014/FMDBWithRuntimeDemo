@@ -1,0 +1,17 @@
+//
+//  FMDB_RuntimeDemo.pch
+//  FMDB_RuntimeDemo
+//
+//  Created by 万绍发 on 15/10/27.
+//  Copyright © 2015年 sfwan. All rights reserved.
+//
+
+#ifndef FMDB_RuntimeDemo_pch
+#define FMDB_RuntimeDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "NSObject+FMDB.h"
+
+#endif /* FMDB_RuntimeDemo_pch */

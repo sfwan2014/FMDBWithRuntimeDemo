@@ -1,0 +1,1 @@
+../../../FMDBRuntimeNew/FMDBRuntimeNew/NSObject+FMDB.h

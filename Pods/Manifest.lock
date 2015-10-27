@@ -1,0 +1,18 @@
+PODS:
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - FMDBRuntimeNew (1.0):
+    - FMDB (~> 2.5)
+
+DEPENDENCIES:
+  - FMDB (~> 2.5)
+  - FMDBRuntimeNew (~> 1.0)
+
+SPEC CHECKSUMS:
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  FMDBRuntimeNew: 858bf5851b4d9c475d07c7b81ec78cc42b532d8f
+
+COCOAPODS: 0.39.0

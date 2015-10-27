@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/FMDBRuntimeNew" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/FMDBRuntimeNew" $(SDKROOT)/usr/include/sqlite3.0
+OTHER_LDFLAGS = -l"sqlite3.0" -framework "Foundation" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
