@@ -1,5 +1,0 @@
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/sqlite3.0 $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/FMDBRuntimeNew"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FMDB" -isystem "${PODS_ROOT}/Headers/Public/FMDBRuntimeNew"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"FMDB" -l"FMDBRuntimeNew" -l"sqlite3" -l"sqlite3.0" -framework "Foundation" -framework "UIKit"
-PODS_ROOT = ${SRCROOT}/Pods

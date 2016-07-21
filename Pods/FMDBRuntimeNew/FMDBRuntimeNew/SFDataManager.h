@@ -14,11 +14,12 @@ typedef void (^QueryFinishBlock) (FMResultSet *set);
 @interface SFDataManager : NSObject
 
 @property (nonatomic, copy) QueryFinishBlock block;
-
+-(NSString *)filePath;
 +(SFDataManager *)shareDataManager;
 -(void)createTableWithSql:(NSString *)sql;
 -(BOOL)insertSql:(NSString *)sql;
 -(void)querySql:(NSString *)sql finishBlock:(QueryFinishBlock)block;
+-(void)executeQuery:(void (^)(FMDatabase *db, BOOL *rollback))block;
 -(void)deleteSql:(NSString *)sql;
 -(BOOL)updateSql:(NSString *)sql;
 @end
